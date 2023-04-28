@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "deep-learning-pytorch"
+version = "0.1.0"
+description = ""
+authors = ["nastyakul <nastyakul1997@gmail.com>"]
+readme = "README.md"
+packages = [{include = "deep_learning_pytorch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+jupyter = "^1.0.0"
+plotly = "^5.14.1"
+matplotlib = "^3.7.1"
+black = "^23.3.0"
+jupyter-black = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
