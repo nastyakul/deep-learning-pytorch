@@ -1,0 +1,7 @@
+pandas
+jupyter
+plotly
+torch
+torchvision
+torchaudio
+matplotlib
